@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    height:90px;
+    background-color:aqua;
+}
+
+.item{
+    justify-content: space-evenly;
+}
+
+.i2{
+ flex-basis:650px;
+ display:flex;
+ align-items: center;
+ justify-content: space-around;  
+ font-size: 20px;
+
+}
+
+.i2 a{
+    text-decoration: none;
+}
+
+.i1{
+    align-self: center;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+
+#home{
+    display: flex;
+    padding-top:150px;
+    background-color: black;
+    color:white;
+} 
+
+
+.home1{
+    flex-basis:65%;
+    padding-left:100px;
+    height:800px;
+}
+#home h2{
+    font-size:50px;
+}
+#home h1{
+    font-size:70px;
+}
+#home h3{
+    display:inline;
+    margin-top:100px;
+    margin-left:40px;
+    font-size:30px;
+    font-weight: 400;
+}
+#home .icon{
+    font-size: 30px;
+    display: inline-block;
+    width:40px;
+    text-align: center;
+    background-color: aqua; 
+    border-radius:50%;
+    margin-top:100px;
+    cursor:pointer;
+}
+.home2 img{
+    height:500px;
+    width:500px;
+    border-radius:100%;
+}
+.links img {
+    margin:5rem 5rem 0 5rem;
+    
+    height:40px;
+    width:40px;
+}
+
+.home2{
+    flex-basis:35%;
+}
+
+
+#intern{
+    display: flex;
+    flex-direction: column;
+    background-color:aquamarine;
+    justify-content: space-evenly;
+    height: 900px;
+    align-items:center;
+}
+#intern h1{
+    align-self: flex-start;
+    padding-left:50px;
+    font-size:50px;
+
+}
+.inintern{
+    width:75%;
+}
+
+
+#skills{
+    background-color:cornflowerblue;
+    height:900px;
+   
+    justify-content: space-around;
+}
+#skills>h1{
+    font-size:70px;
+    padding-top:50px;
+    padding-left:70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inskills{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height:90%;
+    flex-wrap:wrap;
+}
+.innerskills{
+    flex-basis:200px;
+}
+.innerskills h1{
+    font-size: 50px;
+}
+.innerskills img{
+    height:200px;
+    width: 200px;
+}
+.header_project h1{
+    padding:40px;
+    font-size:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#project{
+    height:880px;
+    background-color: rgb(189, 146, 81);
+    
+ 
+}
+.inproject{
+   padding:40px;
+   margin:40px; 
+   display:flex;
+   flex-direction: column;
+   font-size: x-large;
+}
+.p2{
+    align-self: center;
+    
+}
+.p3{
+    align-self: flex-end;
+}
+
+#contact{
+    background-color: blueviolet; 
+    text-align: center  ;  
+}
+
+#contact h1{
+    font-size: 60px;
+    padding:20px;
+
+}
+#contact img {
+    padding:2rem 10rem 5rem 10rem;
+    float:center;
+    height:80px;
+    width:80px;
+}
+
